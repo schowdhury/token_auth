@@ -1,4 +1,8 @@
-Calls:
+## How to Glug it
+
+### Create an account
+
+http://localhost:3000/users/sign_up
 
 ### Get a token
 
@@ -13,8 +17,6 @@ password: PASSWORD
 Result is a token
 
 ### Make requests with auth_token
-
-Then to test the token is valid, hit:
 
 http://localhost:3000/api/test
 
