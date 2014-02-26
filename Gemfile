@@ -35,7 +35,7 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'bcrypt'
-
+gem 'aws-sdk'
 # Use unicorn as the app server
 # gem 'unicorn'
 
@@ -53,3 +53,4 @@ gem "slim-rails"
 gem 'devise' #, github: 'plataformatec/devise'
 gem 'grape'
 gem 'grape-rabl'
+gem "figaro"

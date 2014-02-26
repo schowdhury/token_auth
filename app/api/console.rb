@@ -8,6 +8,13 @@ class Console < Api
     { ping: params[:pong] || 'pong' }
   end
 
+  get :servers do
+    authenticated?
+    ec2 = AWS::EC2.new
+    r=ec2.instances.tagged('Name')
+    r.inject({}) { |m, i| m[i.id] = i.dns_name; m }
+  end
+
   desc "Return a personal timeline."
   get :home_timeline do
     authenticate!
