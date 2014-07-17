@@ -1,4 +1,8 @@
-## How to Glug it
+### Check out the wiki doc below
+
+[Token auth wiki](https://github.com/schowdhury/server_console/wiki/Token-authentication)
+
+### OR  TL;DR below
 
 ### Create an account
 
